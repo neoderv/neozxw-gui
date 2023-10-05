@@ -923,6 +923,23 @@ class MenuBar extends React.Component {
                             </Button>
                         </a>
                     </div>
+                    <div className={styles.menuBarItem}>
+                        <a
+                            className={styles.feedbackLink}
+                            href="https://neozxw.net/create"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            {/* todo: icon */}
+                            <Button className={styles.feedbackButton}>
+                                <FormattedMessage
+                                    defaultMessage="Upload"
+                                    description="Upload your project to the servers"
+                                    id="tw.uploadButton"
+                                />
+                            </Button>
+                        </a>
+                    </div>
                 </div>
 
                 <div className={styles.accountInfoGroup}>
